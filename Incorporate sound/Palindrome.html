@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome</title>
+    <script src="palcheck.js"></script>
+
+    <link href="palcheck.css" rel ="stylesheet">
+</head>
+<body>
+    <h1><img src="2025-12-13-Palindrome-Parade.gif" id ="palParade"></h1>  <br>
+    <p id = "info">
+       <img src="palexplained.png" id="img"><br>
+       Enter your palindrome below<br>
+       If you need some musical hints of other palindromes click the play button.<br>
+       <audio controls>
+  <source src="Palindrome Parade (2).mp3" type="audio/mpeg">
+</audio>
+
+    </p>
+
+
+    
+<form id="palCheck" onsubmit="return false">
+    String 1 : <input type="text" id = "boxOne"/>
+    
+    <input type="submit" onclick = "palindrome()"/>
+    <br>
+    <p id = "results"></p>
+</form>
+</body>
+
+</body>
+</html>
